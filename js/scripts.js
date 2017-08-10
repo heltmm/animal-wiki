@@ -9,7 +9,17 @@ $(document).ready(function() {
     $('#squirrel-hidden').show();
   }   else {
      alert("Why do you hate dolphins?");
+     $('#dolphin-hidden, #honey-badger-hidden, #squirrel-hidden ').show();
   }
+  $("#badgerClick").click(function(){
+    $('#honey-badger-hidden2').show();
+  });
+  $("#dolphinClick").click(function(){
+    $('#dolphin-hidden2').show();
+  });
+  $("#squirrelClick").click(function(){
+    $('#squirrel-hidden2').show();
+  });
 });
 
 // var over21 = confirm("Are you over 21? Click OK for yes or Cancel for no.");
